@@ -8,7 +8,7 @@ import net.minecraft.world.item.Item;
 
 public class NuminaLanguageProvider_US_EN extends AbstractLanguageProviderNumina {
     public NuminaLanguageProvider_US_EN(PackOutput output) {
-        super(output, NuminaConstants.MOD_ID, "us_en");
+        super(output, NuminaConstants.MOD_ID, "en_us");
     }
 
     @Override
@@ -115,7 +115,7 @@ public class NuminaLanguageProvider_US_EN extends AbstractLanguageProviderNumina
         // Elite Battery -------------------------------------------------------------------------------
         add(NuminaObjects.ELITE_BATTERY.get(), "Elite Battery");
 
-        addItemDescriptions(NuminaObjects.ELITE_BATTERY.get(), "Integrate a the most advanced battery to store an extensive amount of energy.");
+        addItemDescriptions(NuminaObjects.ELITE_BATTERY.get(), "Integrate the most advanced battery to store an extensive amount of energy.");
 
         // Ultimate Battery  ---------------------------------------------------------------------------
         add(NuminaObjects.ULTIMATE_BATTERY.get(), "Ultimate Battery");

@@ -293,7 +293,9 @@ public class MPSLanguageProvider__EN_US extends AbstractLangageProviderMPS {
         addItemDescriptions(MPSItems.SHOVEL_MODULE.get(), "Shovels are good for soft materials like dirt and sand.");
 
         // Debug =======================================================================================
-        // TODO
+        add(MPSItems.DEBUG_MODULE.get(), "Debug Module");
+
+        addItemDescriptions(MPSItems.DEBUG_MODULE.get(), "A testing module for debugging Modular Powersuits behavior.");
 
         // Weapons =====================================================================================
         // Blade Launcher ------------------------------------------------------------------------------
@@ -355,7 +357,7 @@ public class MPSLanguageProvider__EN_US extends AbstractLangageProviderMPS {
         add(MPSConstants.GUI_INSTALL, "Install");
 
         // Install description -------------------------------------------------------------------------
-        add(MPSConstants.GUI_INSTALL_DESC, "Installs the mopdule in the selected item");
+        add(MPSConstants.GUI_INSTALL_DESC, "Installs the module in the selected item");
 
         // Installed Modules ---------------------------------------------------------------------------
         add("gui." + MPSConstants.MOD_ID + ".installed.modules", "Installed Modules");

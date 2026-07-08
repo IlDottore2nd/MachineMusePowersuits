@@ -29,7 +29,7 @@ public class NuminaDataGenerator {
         ExistingFileHelper helper = event.getExistingFileHelper();
 
         //Client side data generators
-        generator.addProvider(event.includeServer(), new NuminaLanguageProvider_US_EN(output));
+        generator.addProvider(event.includeClient(), new NuminaLanguageProvider_US_EN(output));
 //        translator.quit();
 
         //Server side data generators
